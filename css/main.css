@@ -1,0 +1,497 @@
+@font-face {
+    font-family: BlenderProBold;
+    src: url("../fonts/Blender-Pro-Bold.otf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: BlenderProBook;
+    src: url("../fonts/Blender-Pro-Book.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    color: #02d8f3;
+    font-family: BlenderProBold, sans-serif;
+    background-color: #fced0a;
+}
+
+div,
+p,
+input,
+button {
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 0.5em;
+    margin-bottom: 1.6em;
+    line-height: 1.38em;
+}
+
+article {
+    width: 1170px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+.f11px {
+    font-size: 11px;
+}
+
+.f12px {
+    font-size: 12px;
+}
+
+.f13px {
+    font-size: 13px;
+}
+
+.f14px {
+    font-size: 14px;
+}
+
+.f15px {
+    font-size: 15px;
+}
+
+.f16px {
+    font-size: 16px;
+}
+
+.f17px {
+    font-size: 17px;
+}
+
+.f18px {
+    font-size: 18px;
+}
+
+.f19px {
+    font-size: 19px;
+}
+
+.f20px {
+    font-size: 20px;
+}
+
+.f21px {
+    font-size: 21px;
+}
+
+.f22px {
+    font-size: 22px;
+}
+
+.f23px {
+    font-size: 23px;
+}
+
+.f24px {
+    font-size: 24px;
+}
+
+.f25px {
+    font-size: 25px;
+}
+
+.f26px {
+    font-size: 26px;
+}
+
+.f27px {
+    font-size: 27px;
+}
+
+.f28px {
+    font-size: 28px;
+}
+
+.f29px {
+    font-size: 29px;
+}
+
+.f30px {
+    font-size: 30px;
+}
+
+.f31px {
+    font-size: 31px;
+}
+
+.f32px {
+    font-size: 32px;
+}
+
+.f33px {
+    font-size: 33px;
+}
+
+.f34px {
+    font-size: 34px;
+}
+
+.f35px {
+    font-size: 35px;
+}
+
+.f36px {
+    font-size: 36px;
+}
+
+.f37px {
+    font-size: 37px;
+}
+
+.f38px {
+    font-size: 38px;
+}
+
+.f39px {
+    font-size: 39px;
+}
+
+.f40px {
+    font-size: 40px;
+}
+
+.f41px {
+    font-size: 41px;
+}
+
+.f42px {
+    font-size: 42px;
+}
+
+.f43px {
+    font-size: 43px;
+}
+
+.f44px {
+    font-size: 44px;
+}
+
+.f45px {
+    font-size: 45px;
+}
+
+.f46px {
+    font-size: 46px;
+}
+
+.f47px {
+    font-size: 47px;
+}
+
+.f48px {
+    font-size: 48px;
+}
+
+.f49px {
+    font-size: 49px;
+}
+
+.f50px {
+    font-size: 50px;
+}
+
+.f51px {
+    font-size: 51px;
+}
+
+.f52px {
+    font-size: 52px;
+}
+
+.f53px {
+    font-size: 53px;
+}
+
+.f54px {
+    font-size: 54px;
+}
+
+.f55px {
+    font-size: 55px;
+}
+
+.f56px {
+    font-size: 56px;
+}
+
+.f57px {
+    font-size: 57px;
+}
+
+.f58px {
+    font-size: 58px;
+}
+
+.f59px {
+    font-size: 59px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.book {
+    font-family: BlenderProBook;
+}
+
+.aligner {
+    text-align: center;
+}
+
+.alefter {
+    text-align: left;
+}
+
+.arighter {
+    float: right;
+}
+
+.centro {
+    margin: 0px, auto;
+}
+
+header {
+    background: #0c000a url(../img/first_bg.jpg) no-repeat center center / cover;
+    height: 100vh;
+}
+
+header {
+    height: 100vh;
+}
+
+.date {
+    padding-top: 6vh;
+}
+
+.main_logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -440px;
+    top: 50%;
+    margin-top: -270px;
+}
+
+.platform {
+    padding-right: 4vh;
+}
+
+.platforms {
+    position: absolute;
+    left: 50%;
+    margin-left: -645px;
+    top: 50%;
+    margin-top: 120px;
+}
+
+.media {
+    padding-right: 3vh;
+    padding-top: -10vh
+}
+
+.medias {
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: 35px;
+}
+
+.cdp {
+    top: 50%;
+    margin-top: -65px;
+    right: 50%;
+    margin-right: 35px;
+}
+
+
+.btn-preorder {
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.5vh;
+    text-decoration: none;
+    padding: 20px, 30px;
+    position: absolute;
+    bottom: 0.1vh;
+    leftl: 50%;
+    width: 350px;
+    height: 73px;
+    margin-left: 500px;
+    background-color: #ff003c;
+    background: linear-gradient(45deg, transparent 10px, #ff003c 0);
+}
+
+.btn-preorder span {
+    position: absolute;
+    top: 30%;
+    left: 18%;
+}
+
+#about h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px, auto;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: black 0 0 5px;
+}
+
+#about {
+    background: #fbf203 url(../img/bage_bg.jpg) no-repeat center center / cover;
+    height: 120.5vh;
+    padding: 10px;
+
+}
+
+.author {
+    margin: 0;
+    text-shadow: black 0 0 5px;
+}
+
+hr.stylehr1 {
+    box-shadow: 0 0 5px 0 black;
+}
+
+.realyou {
+    position: absolute;
+    background: #0c0c0c url(../img/bage_bg2.jpg) no-repeat center center / cover;
+    height: 105vh;
+    width: 180vh;
+    padding: 10px;
+    left: 50%;
+    margin-left: -842px;
+}
+
+.block2 {
+    position: absolute;
+    width: 86vh;
+    background-color: #fbf203;
+    right: 50%;
+    margin-right: -97.2vh;
+    top: 50px;
+    margin-top: 23vh;
+    color: black;
+    display: block;
+    background: linear-gradient(45deg, transparent 25px, #fbf203 0);
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 10vh;
+    background: url(../img/h1-line.svg) no-repeat left bottom;
+    margin-top: -1vh;
+    padding-bottom: 2vh;
+    margin-bottom: 5vh;
+    margin-top: 7vh;
+    margin-left: 7vh;
+}
+
+.block2 p {
+    margin-left: 7vh;
+    margin-bottom: 7vh;
+    font-family: BlenderProBook, sans-serif;
+
+
+}
+
+
+
+footer .ftbcg {
+    background: #fbf203 url(../img/signup.jpg) no-repeat left top;
+
+    height: 13vh;
+}
+
+footer {
+    padding: 0;
+    color: black;
+    line-height: 4vh;
+    background-color: #fced0a;
+    height: 100%;
+    font-family: BlenderProBook, sans-serif;
+
+}
+
+.nameoffoot {
+    display: inline;
+    position: absolute;
+}
+
+footer h2 {
+    font-family: BlenderProBold, sans-serif;
+    float: left;
+    margin: 0;
+    margin-top: 1vh;
+    margin-left: 2vh;
+
+}
+
+footer h2 span {
+    font-family: BlenderProBook, sans-serif;
+    text-transform: none;
+}
+
+
+.email {
+
+    display: inline;
+    left: 50%;
+    margin-left: 72vh;
+    top: 50%;
+    margin-top: 250vh;
+
+
+}
+
+input[type="email"] {
+    background: none;
+    color: #000;
+    font-size: 23px;
+    padding: 5px 2px;
+    border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    outline: 0;
+    flex: 1 1 auto;
+    transition: border .3s ease;
+    border-bottom: 2px solid #000;
+    box-sizing: border-box;
+    line-height: 1.2;
+    border-radius: 0;
+    width: 80vh;
+}
+
+input[type="checkbox"] {
+    left: 50%;
+    margin-left: 72vh;
+    top: 50%;
+    margin-top: 2vh;
+    font-family: BlenderProBook, sans-serif;
+    font-size: 20px;
+
+}
+
+label span {
+    width: 15vh;
+    line-height: 15px;
+}
+.checks{
+    width: 150vh;
+    display: flex;
+}
